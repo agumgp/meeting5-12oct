@@ -1,0 +1,220 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Roboto;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.container-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+  width: 1100px;
+  margin: auto;
+}
+
+.container-navbar .logo {
+  width: 186px;
+}
+
+.container-navbar .list {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  font-size: 20px;
+}
+
+.container-navbar .list a {
+  color: #20262a;
+}
+
+.container-navbar .btn-login {
+  border-radius: 85px;
+  border: 1px solid var(--primary, #00b6f0);
+  padding: 10px 30px 10px 30px;
+  font-size: 20px;
+}
+
+.container-navbar .btn-login a {
+  color: #00b6f0;
+}
+
+/* section-1-start */
+
+.section-1 {
+  margin-top: 50px;
+  width: 1100px;
+  margin: auto;
+}
+
+.section-1 .content-1 {
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+.section-1 .content-1 h3 {
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 450;
+  line-height: 42px;
+  letter-spacing: 0.1px;
+  color: var(--secondary, #f3cd03);
+  margin-bottom: 30px;
+}
+
+.section-1 .content-1 h1 {
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 65px;
+  /* 116.071% */
+  letter-spacing: 0.2px;
+  color: var(--first-text, #20262a);
+  margin-bottom: 30px;
+}
+
+.section-1 .content-1 p {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 450;
+  line-height: 38px;
+  /* 158.333% */
+  letter-spacing: 0.2px;
+  color: var(--second-text, #5c5c5c);
+  width: 439px;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+.btn-section-1 {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.btn-section-1 .btn-1 {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  color: var(--light-text, #fff);
+  border-radius: 85px;
+  background: var(--primary, #00b6f0);
+  padding: 20px 40px 20px 40px;
+}
+
+.btn-section-1 .btn-2 {
+  border-radius: 85px;
+  border: 2px solid var(--primary, #00b6f0);
+  background: var(--light-background, #fff);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  /* 111.111% */
+  letter-spacing: 0.2px;
+  color: var(--primary, #00b6f0);
+  padding: 20px 40px 20px 40px;
+}
+
+/* section-1-end */
+
+/* section-2-start */
+
+.section-2 {
+  margin-top: 50px;
+  background: var(--dark-background, #182333);
+  width: 100%;
+  height: 496px;
+}
+
+.section-pricing {
+  display: flex;
+  margin: auto;
+  gap: 167px;
+  padding: 100px 20px;
+  width: 881px;
+}
+
+.section-pricing .pricing-1 h1 {
+  color: var(--light-text, #fff);
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 65px;
+  letter-spacing: 0.2px;
+  padding: 10px 0 10px 0;
+  margin-bottom: 10px;
+}
+
+.section-pricing .pricing-1 p {
+  color: var(--light-text, #fff);
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 450;
+  line-height: 30px;
+  letter-spacing: 0.2px;
+  width: 417px;
+  height: 90px;
+}
+
+.section-pricing .pricing-2 p:nth-child(1) {
+  color: var(--light-text, #fff);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 450;
+  line-height: 28px;
+  letter-spacing: 0.1px;
+  margin-bottom: 10px;
+}
+
+.section-pricing .pricing-2 .headline {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.section-pricing .pricing-2 .headline {
+  margin-bottom: 10px;
+}
+
+.section-pricing .pricing-2 .headline p {
+  width: 129px;
+  gap: 10px;
+  color: var(--light-text, #fff);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 450;
+  line-height: 38px;
+  letter-spacing: 0.2px;
+}
+
+.section-pricing .pricing-2 p:nth-child(3) {
+  width: 257px;
+  color: var(--light-text, #fff);
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 450;
+  line-height: 30px;
+  letter-spacing: 0.2px;
+  margin-bottom: 10px;
+}
+
+.section-pricing .pricing-2 .btn-pricing {
+  border-radius: 85px;
+  background: var(--primary, #00b6f0);
+  color: var(--light-text, #fff);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  padding: 15px 48px 15px 48px;
+}
+
+/* section-2-end */
