@@ -1,0 +1,161 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.navbar {
+  font-family: sans-serif;
+  padding-top: 48px;
+  letter-spacing: 0.3px;
+  word-wrap: break-word;
+}
+
+.navbar ul {
+  display: flex;
+  width: 1100px;
+  justify-content: space-around;
+  margin: auto;
+  align-items: center;
+}
+
+.navbar a {
+  color: #20262a;
+  font-size: 18px;
+  font-weight: 450;
+  line-height: 22px;
+  padding-top: 20px;
+  text-decoration: none;
+}
+
+.navbar img {
+  width: 186px;
+  height: 58px;
+}
+.button {
+  color: #00b6f0;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 20px;
+  border-radius: 20px;
+  background-color: white;
+  border: solid 1px #00b6f0;
+  height: 52px;
+  width: 140px;
+}
+
+.container1 {
+  width: 634px;
+  margin: auto;
+  font-family: sans-serif;
+}
+
+.text1 {
+  color: #f3cd03;
+  font-size: 36px;
+  text-align: center;
+  padding-top: 70px;
+}
+
+.text2 {
+  color: #20262a;
+  font-size: 34px;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.text3 {
+  color: #5c5c5c;
+  font-size: 24px;
+  line-height: 38px;
+  padding-top: 40px;
+  text-align: center;
+}
+
+.tombol {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+
+#download {
+  border: solid 1px;
+  border-radius: 40px;
+  height: 52px;
+  width: 187px;
+  border: solid 1px #00b6f0;
+  background-color: #00b6f0;
+  color: white;
+}
+
+#download2 {
+  border: solid 1px #00b6f0;
+  background-color: white;
+  border-radius: 40px;
+  height: 52px;
+  width: 245px;
+  color: #00b6f0;
+}
+
+.pricing-background {
+  background-color: var(--dark-background, #182333);
+  font-family: sans-serif;
+  margin: auto;
+  width: 1282px;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  padding: 100px 25px 100px 25px;
+}
+
+.pricing {
+  padding-bottom: 32px;
+  padding-left: 10px;
+  font-size: 56px;
+}
+
+.caption {
+  padding-left: 10px;
+  padding-bottom: 12px;
+  font-size: 19px;
+}
+
+.caption2 {
+  margin-bottom: 20px;
+  font-size: 19px;
+}
+
+.harga {
+  display: flex;
+  justify-content: space-around;
+}
+
+.nominal {
+  size: 72px;
+  padding-right: 10px;
+}
+
+.month {
+  margin-top: 20px;
+  padding-right: 70px;
+  font-size: 24px;
+}
+
+.caption3 {
+  margin-bottom: 25px;
+  margin-top: 10px;
+  font-size: 19px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.pricing-button {
+  border: solid 1px;
+  border-radius: 40px;
+  height: 52px;
+  width: 187px;
+  border: solid 1px #00b6f0;
+  background-color: #00b6f0;
+  color: white;
+  font-size: 18px;
+}
