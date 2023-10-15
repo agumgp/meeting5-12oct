@@ -1,241 +1,282 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-
-.main-container {
-    width: 1282px;
-    height: auto;
-}
-.navbar{
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}.container-navbar {
     width: 1100px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: auto;
+    margin: auto; /* Ini akan membuat container-navbar berada di tengah-tengah halaman */
+    display: flex; /* Mengaktifkan flexbox */
+    justify-content: space-between; /* Menyeimbangkan ruang antara anak-anak langsung */
+    align-items: center; /* Menyelaraskan anak-anak langsung secara vertikal */
+     /* Memberi sedikit padding di sisi kanan dan kiri */
 }
 
-.menu {
-    width: 407px;
-    display: flex;
-    justify-content: space-between;
+.container {
+    display: flex; /* Mengaktifkan flexbox untuk link navigasi */
+    gap: 1rem; /* Memberi jarak antar item di dalam container */
+    font-family: 'Montserrat';
 }
-
-.menu a {
-    color: #20262A;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 450;
-    line-height: 20px;
-    letter-spacing: 0.2px;
+.container a {
     text-decoration: none;
-    gap: 10px;
-    display: flex;
-    padding: 10px;
-    align-items: center;
+    font-weight: bold;
 }
 
-.button button{
-    border-radius: 85px;
-    border: 1px solid var(--primary, #00B6F0);
-    color: #00B6F0;
-    padding: 10px 36px;
-    align-items: center;
-    display: inline-flex;
-    background-color: white;
-}
 
-.container-body {
+.btn {
+display: flex;
+height: 52px;
+padding: 20px 36px;
+align-items: center;
+border-radius: 85px;
+border: 1px solid var(--primary, #00B6F0);
+background-color: white;
+font-family: 'Montserrat';
+font-weight: bold;
+font-weight: bold;
+}
+.container-content{
+    width: 1282px;
+    margin: auto;
     display: flex;
-    padding: 62px 199px;
+    display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 10px;
-    align-self: stretch;
-    background: #FFF;
+    padding-top: 10px;
 }
-
-.title {
+.container-content p{
     display: flex;
-padding: 10px;
-align-items: center;
-gap: 10px;
-color: #F3CD03;
-font-family: Circular Std;
+    flex-direction: column;
+    align-items: center;
+    gap: 59px;
+    color: #F3CD03;
+    font-family: 'Montserrat';
+    font-weight: bold;
+
 font-size: 36px;
 font-style: normal;
 font-weight: 450;
 line-height: 42px; /* 116.667% */
 letter-spacing: 0.1px;
 }
-
-.fastest {
+.container-content h1{
     display: flex;
     padding: 10px;
     align-items: center;
     gap: 10px;
-    font-family: Circular Std;
-    font-size: 56px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 65px; /* 116.071% */
-    letter-spacing: 0.2px;
-}
+    color: #20262A;
+    font-family: 'Montserrat';
 
-.headline {
-    display: flex;
-    padding: 10px;
-    align-items: center;
-    gap: 10px;
-    font-family: Circular Std;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 450;
-    line-height: 38px; /* 158.333% */
-    letter-spacing: 0.2px;
-    color: var(--second-text, #5C5C5C);
-    text-align: center;
-    padding-bottom: 59px;
-}
-
-.download {
-    display: flex;
-    align-items: center;
-}
-
-.button-2 {
-    display: flex;
-    justify-content: space-between;
-    margin: auto;
-    gap: 13px;
-}
-.download button {    
-    border-radius: 20px;
-background: var(--primary, #00B6F0);
-color: white;
-padding: 10px 40px;
-font-size: 10px;
-border: none;
-}
-
-.walkthrough button {
-    border-radius: 85px;
-    border: 1px solid  #00B6F0;
-    color: #00B6F0;
-    padding: 10px 40px;
-    font-size: 10px;
-    align-items: center;
-    display: inline-flex;
-    background-color: white;
-    justify-content: space-between;
-}
-
-.container1{
-    background: var(--dark-background, #182333);
-    padding: 100px 20px;
-    display: flex;
-    gap: 10px;
-    color: #FFF;
-    justify-content: space-between;
-}
-.container-pricing{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    padding: 10px;
-    padding-left: 150px;
-}
-
-.sub-container-pricing{
-    color: var(--light-text, #FFF);
-/* Second Headline */
-    font-family: Circular Std;
-    font-size: 56px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 65px; /* 116.071% */
-    letter-spacing: 0.2px;
-}
-
-.paragraf {
-    font-family: Circular Std;
-    font-size: 22px;
-    font-style: normal;
-    font-weight: 450;
-    line-height: 30px; /* 157.895% */
-    letter-spacing: 0.2px;
-    width: 440px;
-    height: 90px;
-    padding-top: 20px;
-}
-
-.container-right{
-    display: flex;
-    padding: 10px;
-    gap: 10px;
-    display: flex;
-    flex-direction: column;
-    width: 300px;
-    padding-right: 150px;
-}
-.trial {
-    font-family: Circular Std;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 450;
-    line-height: 28px; /* 155.556% */
-    letter-spacing: 0.1px;
-}
-
-.harga {
-    display: flex;
-    flex-direction: row;
-
-}
-
-.dollar {
-color: #F3CD03;
-font-family: Circular Std;
-font-size: 72px;
+font-size: 56px;
 font-style: normal;
-font-weight: 900;
-line-height: 78px; /* 108.333% */
-letter-spacing: 0.2px;    
-}
+font-weight: 700;
+line-height: 65px; /* 116.071% */
+letter-spacing: 0.2px;
 
-.user {
-    font-family: Circular Std;
+}
+.container-content h5{
+    display: flex;
+    padding: 5px;
+    text-align: center;
+    gap: 10px;
+    color: #5C5C5C;
+    flex-direction: column;
+ 
 font-size: 24px;
 font-style: normal;
 font-weight: 450;
 line-height: 38px; /* 158.333% */
 letter-spacing: 0.2px;
-padding: 10px;
-width: 129px;
 }
 
-.sentence {
-    font-family: Circular Std;
+.btn-container{
+    text-align: center;
+    padding-top: 59px;
+    padding-bottom: 100px;
+    font-weight: bold;
+}
+.btn-content1,
+.btn-content2 {
+    display: inline-block; /* Mengubah display menjadi inline-block */
+    padding: 20px 40px;
+    align-items: center;
+    border-radius: 85px;
+    background: var(--primary, #00B6F0);
+    font-family: 'Montserrat';
+    color: white;
+}
+
+.btn-content2 {
+    margin-left: 10px; /* Jarak antara tombol-tombol */
+    border-radius: 85px;
+    border: 2px solid var(--primary, #00B6F0);
+    background: var(--light-background, #FFF);
+    font-family: 'Montserrat';
+    color:#00B6F0;
+}
+.btn-container .btn-content2:hover{
+    background-color:blueviolet;
+}
+.btn-container .btn-content1:hover{
+    background-color:blueviolet;
+}
+.btn:hover{
+    background-color: blueviolet;
+}
+.container-footer{
+padding: 100px 20px;
+display: flex;
+width: 1282px;
+margin: auto;
+flex-direction: column;
+align-items: center;
+gap: 10px;
+align-self: stretch;
+background: var(--dark-background, #182333);
+}
+.container-pricing{
+    display: flex;
+    align-items: flex-start;
+    gap: 167px;
+    background-color: #182333;
+    padding-right: 167px;
+    margin-right: 20px;
+    margin-left: 20px;
+
+}
+.container-text1{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 6px;
+font-family: 'Montserrat';
+}
+.container-text1 h1{
+color: var(--light-text, #FFF);
+/* Second Headline */
+font-size: 56px;
+font-style: normal;
+font-weight: 700;
+line-height: 65px; /* 116.071% */
+letter-spacing: 0.2px;
+font-family: 'Montserrat';
+}
+.container-text1 p{
+color: var(--light-text, #FFF);
+/* Paragraphe */
 font-size: 19px;
 font-style: normal;
 font-weight: 450;
 line-height: 30px; /* 157.895% */
 letter-spacing: 0.2px;
-padding-bottom: 10px;
-width: 257px;
+font-family: 'Montserrat';
 }
-
-.get-started button{
-    border-radius: 85px;
-    background: var(--primary, #00B6F0);
-    color: white;
-    padding: 10px 40px;
-    font-size: 10px;
-    border: none;
-    font-family: Circular Std;
+.container-pricing h1{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    gap: 10px;
+    font-family: 'Montserrat';
+}
+.container-pricing p{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    gap: 10px;
+    font-family: 'Montserrat';
+}
+.container-text2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-family: 'Montserrat';
+}
+.container-text2 h1{
+color: var(--light-text, #FFF);
+padding: 9px;
+/* Subtitle */
 font-size: 18px;
 font-style: normal;
-font-weight: 700;
-line-height: 20px;
-letter-spacing: 0.2px;
+font-weight: 450;
+line-height: 28px; /* 155.556% */
+letter-spacing: 0.1px;
+font-family: 'Montserrat';
 }
+.price-wrapper p{
+    color: var(--secondary, #F3CD03);
+    font-family: 'Montserrat';
+/* Headline */
+
+font-size: 72px;
+font-style: normal;
+font-weight: 900;
+line-height: 78px; /* 108.333% */
+letter-spacing: 0.2px;
+
+
+}
+.price-wrapper h2{
+    color: var(--light-text, #FFF);
+    padding: 10px;
+    width: 129px;
+    margin: auto;
+/* Sub Heading */
+
+font-size: 24px;
+font-style: normal;
+font-weight: 450;
+line-height: 38px; /* 158.333% */
+letter-spacing: 0.2px;
+font-family: 'Montserrat';
+}
+.container-text2 h3{
+    color: var(--light-text, #FFF);
+
+/* Paragraphe */
+
+font-size: 19px;
+font-style: normal;
+font-weight: 450;
+line-height: 30px; /* 157.895% */
+letter-spacing: 0.2px;
+padding-bottom: 20px;
+padding-top: 20px;
+font-family: 'Montserrat';
+}
+.container-footer button{
+display: flex;
+padding: 10px;
+align-items: center;
+gap: 10px;
+font-family: 'Montserrat';
+font-weight: bold;
+}
+.container-pricing button{
+display: flex;
+height: 52px;
+padding: 0px 38px;
+align-items: center;
+border-radius: 85px;
+background: var(--primary, #00B6F0);
+color: white;
+font-family: 'Montserrat';
+font-weight: bold;
+}
+.container-pricing button:hover{
+    background-color:blueviolet;
+}
+.price-wrapper {
+    display: flex;         /* Mengatur kontainer menjadi flex container */
+    align-items: center;   /* Menempatkan item-item flex di tengah secara vertikal untuk alignment yang baik */
+    gap: 5px;              /* Memberi jarak antara elemen-elemen di dalamnya (jika diperlukan) */
+    font-family: 'Montserrat';
+}
+
+.price-wrapper p, 
+.price-wrapper h2 {
+    margin: 0;             /* Menghilangkan margin default untuk membuat mereka benar-benar berdampingan */
+padding-top: 9px;
+font-family: 'Montserrat';
+}
+
+
+
