@@ -3,12 +3,14 @@
     padding: 0px;
     
 }.container-navbar {
+    width: 1282px;
+    height: auto;
+
     width: 1100px;
-    margin: auto; /* Ini akan membuat container-navbar berada di tengah-tengah halaman */
-    display: flex; /* Mengaktifkan flexbox */
-    justify-content: space-between; /* Menyeimbangkan ruang antara anak-anak langsung */
-    align-items: center; /* Menyelaraskan anak-anak langsung secara vertikal */
-     /* Memberi sedikit padding di sisi kanan dan kiri */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
 }
 
 .container {
@@ -19,6 +21,7 @@
 .container a {
     text-decoration: none;
     font-weight: bold;
+    color: black;
 }
 
 
@@ -35,13 +38,13 @@ font-weight: bold;
 font-weight: bold;
 }
 .container-content{
-    width: 1282px;
-    margin: auto;
     display: flex;
-    display: flex;
+    padding: 62px 199px;
     flex-direction: column;
     align-items: center;
-    padding-top: 10px;
+    gap: 10px;
+    align-self: stretch;
+    background: #FFF;
 }
 .container-content p{
     display: flex;
@@ -123,15 +126,12 @@ letter-spacing: 0.2px;
     background-color: blueviolet;
 }
 .container-footer{
-padding: 100px 20px;
-display: flex;
-width: 1282px;
-margin: auto;
-flex-direction: column;
-align-items: center;
-gap: 10px;
-align-self: stretch;
-background: var(--dark-background, #182333);
+    background: var(--dark-background, #182333);
+    padding: 100px 20px;
+    display: flex;
+    gap: 10px;
+    color: #FFF;
+    justify-content: space-between;
 }
 .container-pricing{
     display: flex;
