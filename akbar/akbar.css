@@ -101,7 +101,6 @@
   background-color: var(--dark-background, #182333);
   font-family: sans-serif;
   margin: auto;
-  width: 1282px;
   color: white;
   display: flex;
   justify-content: space-around;
